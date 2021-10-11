@@ -1,21 +1,43 @@
 {
-  "name": "task-app-react",
+  "name": "notes-app-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^1.6.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@hookform/resolvers": "^2.8.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.22.0",
+    "chroma-js": "^2.1.2",
+    "date-fns": "^2.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "framer-motion": "^4",
+    "jwt-decode": "^3.1.2",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.2",
+    "react-icons": "^4.3.1",
+    "react-query": "^3.26.0",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint \"./src/**/*.js\"",
+    "lint:fix": "yarn lint --fix"
   },
   "eslintConfig": {
     "extends": [
